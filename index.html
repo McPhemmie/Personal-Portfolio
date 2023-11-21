@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--====== FAVICON ======-->
+
+    <link rel="shortcut icon" href="Images/Remy.JPEG" type="image/x-icon">
+
+    <!--====== REMIX ICON ======-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--====== SWIPER CSS ======-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <!--====== CSS ======-->
+    <link rel="stylesheet" href="style.css">
+    <title>Remy Portfolio Website</title>
+</head>
+<body>
+    <!--====== HEADER ======-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="" class="nav__logo">
+                Remy
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="ri-home-5-line"></i>Home
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="ri-trophy-line"></i>Skills
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#qualification" class="nav__link">
+                            <i class="ri-book-open-line"></i>Qualification
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">
+                            <i class="ri-briefcase-line"></i>Services
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">
+                            <i class="ri-image-line"></i>Projects
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="ri-chat-3-line"></i>Contact
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- Close Button-->
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+            <div class="nav__buttons">
+                <!-- Theme Change Button -->
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                <!-- Toggle Button -->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-4-line"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--====== MAIN ======-->
+    <main class="main">
+        <!--====== HOME ======-->
+        <section class="home section" id="home">
+            <div class="home__container container grid section__border">
+                <div class="home__data grid">
+                    <h1 class="home__title">
+                        Hi, I'm Remy <br>
+                        Frontend Developer <br>
+                        Based In Nigeria <br>
+                    </h1>
+
+                    <div class="home__blob grid">
+                        <div class="home__perfil">
+                            <img src="Images/Remy2.JPG" alt="home perfil">
+                        </div>
+                    </div>
+
+                    <ul class="home__social">
+                        <a href="https://www.linkedin.com/" target="_blank" class="home__social-link">
+                            <i class="ri-linkedin-box-line"></i>
+                        </a>
+
+                        <a href="https://github.com/" target="_blank" class="home__social-link">
+                            <i class="ri-github-line"></i>
+                        </a>
+
+                        <a href="https://dribbble.com/" target="_blank" class="home__social-link">
+                            <i class="ri-dribbble-line"></i>
+                        </a>
+                    </ul>
+                </div>
+
+                <!--====== HOME INFO 1 ======-->
+                <div class="home__info">
+                    <div>
+                        <h3 class="home__info-title">
+                            BIOGRAPHY
+                        </h3>
+
+                        <p class="home__info-description">
+                            Hi, I'm Remy, Frontend Developer.
+                            Passionate about designing beautiful Web
+                            interfaces. Based in Nigeria
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="home__info-title">
+                            CONTACT
+                        </h3>
+
+                        <p class="home__info-description">
+                            Lagos, Nigeria <br>
+                            phemmy10@ymail.com <br>
+                            +234 8120916631 <br>
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="home__info-title">
+                            SERVICES
+                        </h3>
+
+                        <p class="home__info-description">
+                            Website Design <br>
+                            UI/UX Design <br>
+                            3D Modeling and Animation <br>
+                            Motion Graphics Design <br>
+                        </p>
+                    </div>
+                </div>
+
+                <!--====== HOME INFO 2 ======-->
+                <div class="home__info">
+                    <div>
+                        <h3 class="home__info-title">
+                            YEARS OF EXPERIENCE
+                        </h3>
+
+                        <p class="home__info-number">
+                            4+
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="home__info-title">
+                            COMPLETED PROJECTS
+                        </h3>
+
+                        <p class="home__info-number">
+                            24+
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="home__info-title">
+                            COMPANIES WORKED
+                        </h3>
+
+                        <p class="home__info-number">
+                            4+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--====== SKILLS ======-->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">My Favourite Skills</span>
+
+            <div class="skills__container container grid section__border">
+                <!--====== SKILLS 1 ======-->
+                <div class="skills__content">
+                    <h3 class="skills__title">
+                        <i class="ri-braces-line"></i> Frontend Developer
+                    </h3>
+
+                    <div class="skills__info">
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="Images/html-5.png" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">HTML</h3>
+                            <span class="skills__subtitle">Intermediate</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="Images/css-3.png" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">CSS</h3>
+                            <span class="skills__subtitle">Basic</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="Images/js.png" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">JavaScript</h3>
+                            <span class="skills__subtitle">Intermediate</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="Images/react.png" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">React</h3>
+                            <span class="skills__subtitle">Basic</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="Images/git.png" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">Git</h3>
+                            <span class="skills__subtitle">Intermediate</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!--====== SKILLS 2 ======-->
+                <div class="skills__content">
+                    <h3 class="skills__title">
+                        <i class="ri-pantone-line"></i> Web Designer
+                    </h3>
+
+                    <div class="skills__info">
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="Images/figma.png" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">Figma</h3>
+                            <span class="skills__subtitle">Basic</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="Images/sketch.png" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">Sketch</h3>
+                            <span class="skills__subtitle">Intermediate</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="Images/adobe-photoshop.png" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">Photoshop</h3>
+                            <span class="skills__subtitle">Intermediate</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="Images/xd.png" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">Adobe Xd</h3>
+                            <span class="skills__subtitle">Basic</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="Images/invision.png" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">InvisionApp</h3>
+                            <span class="skills__subtitle">Basic</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--====== QUALIFICATION ======-->
+        <section class="qualification section" id="qualification">
+            <h2 class="section__title">Qualification</h2>
+            <span class="section__subtitle">Experience & Education</span>
+
+            <div class="qualification__container container grid section__border">
+                <!--====== QUALIFICATION 1 ======-->
+                <div class="qualification__content">
+                    <h3 class="qualification__title">
+                        <i class="ri-pencil-ruler-2-line"></i> Education
+                    </h3>
+
+                    <div class="qualification__info">
+                        <div>
+                            <h3 class="qualification__name">
+                                Barchelor in Art
+                            </h3>
+                            <span class="qualification__country">Nigeria - University</span>
+                            <span class="qualification__year">2018 - 2021</span>
+                        </div>
+
+                        <div>
+                            <h3 class="qualification__name">
+                                UI/UX Design
+                            </h3>
+                            <span class="qualification__country">Institute - Nigeria</span>
+                            <span class="qualification__year">2021 -2022</span>
+                        </div>
+
+                        <div>
+                            <h3 class="qualification__name">
+                                Web Development
+                            </h3>
+                            <span class="qualification__country">Institute - Nigeria</span>
+                            <span class="qualification__year">2022 - 2023</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!--====== QUALIFICATION 2 ======-->
+                <div class="qualification__content">
+                    <h3 class="qualification__title">
+                        <i class="ri-building-line"></i> Work
+                    </h3>
+
+                    <div class="qualification__info">
+                        <div>
+                            <h3 class="qualification__name">
+                                Frontend Developer
+                            </h3>
+                            <span class="qualification__country">IdealNovate - Nigeria</span>
+                            <span class="qualification__year">2023 - 2024</span>
+                        </div>
+
+                        <div>
+                            <h3 class="qualification__name">
+                                Facilitator
+                            </h3>
+                            <span class="qualification__country">AIHS - Nigeria</span>
+                            <span class="qualification__year">2022 - 2023</span>
+                        </div>
+
+                        <div>
+                            <h3 class="qualification__name">
+                                3D Artist
+                            </h3>
+                            <span class="qualification__country">Upwork - Nigeria</span>
+                            <span class="qualification__year">2020 - Present</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--====== SERVICES ======-->
+        <section class="services section" id="services">
+            <h2 class="section__title">Services</h2>
+            <span class="section__subtitle">What I Offer</span>
+
+            <div class="services__container container grid section__border">
+                <div class="services__card">
+                    <i class="ri-layout-4-line"></i>
+
+                    <h2 class="services__title">
+                        UI/UX <br>
+                        Designer
+                    </h2>
+
+                    <p class="services__description">
+                        My service provides the best quality and at 
+                        the request of the client, with professional
+                        work and customer support. 
+                    </p>
+
+                    <div class="services__border"></div>
+                </div>
+
+                <div class="services__card">
+                    <i class="ri-code-line"></i>
+
+                    <h2 class="services__title">
+                        Website <br>
+                        Design
+                    </h2>
+
+                    <p class="services__description">
+                        My service provides the best quality and at 
+                        the request of the client, with professional
+                        work and customer support. 
+                    </p>
+
+                    <div class="services__border"></div>
+                </div>
+
+                <div class="services__card">
+                    <i class="ri-quill-pen-line"></i>
+
+                    <h2 class="services__title">
+                        3D <br>
+                        Modeling
+                    </h2>
+
+                    <p class="services__description">
+                        My service provides the best quality and at 
+                        the request of the client, with professional
+                        work and customer support. 
+                    </p>
+
+                    <div class="services__border"></div>
+                </div>
+            </div>
+        </section>
+
+        <!--====== PROJECTS ======-->
+        <section class="projects section" id="projects">
+            <h2 class="section__title">Projects</h2>
+            <span class="section__subtitle">Most Recent Works</span>
+
+            <div class="container section__border">
+                <div class="projects__container swiper">
+                    <div class="swiper-wrapper">
+                        <!--====== PROJECTS 1 ======-->
+                        <div class="projects__content swiper-slide">
+                            <img src="Images/Webpage.png" alt="project image" class="projects__img">
+
+                            <div>
+                                <span class="projects__subtitle">Web</span>
+                                <h1 class="projects__title">Modern Website</h1>
+
+                                <a href="#" class="projects__button">
+                                    View Demo <i class="ri-arrow-right-line"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--====== PROJECTS 2 ======-->
+                        <div class="projects__content swiper-slide">
+                            <img src="Images/Kitchen Model 1.png" alt="project image" class="projects__img">
+
+                            <div>
+                                <span class="projects__subtitle">3D Modeling</span>
+                                <h1 class="projects__title">Interior Design</h1>
+
+                                <a href="#" class="projects__button">
+                                    View Demo <i class="ri-arrow-right-line"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--====== PROJECTS 3 ======-->
+                        <div class="projects__content swiper-slide">
+                            <img src="Images/Web3.webp" alt="project image" class="projects__img">
+
+                            <div>
+                                <span class="projects__subtitle">Design</span>
+                                <h1 class="projects__title">Application Design</h1>
+
+                                <a href="#" class="projects__button">
+                                    View Demo <i class="ri-arrow-right-line"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--====== PROJECTS 4 ======-->
+                        <div class="projects__content swiper-slide">
+                            <img src="Images/Wifi 2.jpg" alt="project image" class="projects__img">
+
+                            <div>
+                                <span class="projects__subtitle">3D Modeling</span>
+                                <h1 class="projects__title">Product Design</h1>
+
+                                <a href="#" class="projects__button">
+                                    View Demo <i class="ri-arrow-right-line"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--====== Swiper Arrow ======-->
+                    <div class="swiper-button-next">
+                        <i class="ri-arrow-right-s-line"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="ri-arrow-left-s-line"></i>
+                    </div>
+
+                    <!--====== Swiper Pagination ======-->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <!--====== TESTIMONIAL ======-->
+        <section class="testimonial section">
+            <h2 class="section__title">Testimonial</h2>
+            <span class="section__subtitle">My Client Saying</span>
+
+            <div class="container section__border">
+                <div class="testimonial__container swiper">
+                    <div class="swiper-wrapper">
+                        <!--====== TESTIMONIAL 1 ======-->
+                        <div class="testimonial__content swiper-slide">
+                            <p class="testimonial__description">
+                                "Absolutely thrilled with the stunning web 
+                                design delivered by Remy. His creativity, 
+                                attention to detail, and seamless collaboration 
+                                made the entire process a joy"
+                            </p>
+
+                            <div>
+                                <h3 class="testimonial__name">Taymie Nickie</h3>
+                                <span class="testimonial__subtitle">Client</span>
+                            </div>
+                        </div>
+
+                        <!--====== TESTIMONIAL 2 ======-->
+                        <div class="testimonial__content swiper-slide">
+                            <p class="testimonial__description">
+                                "My website now beautifully reflects my vision, 
+                                and I couldn't be more satisfied. All thanks to 
+                                Remy's creativity. Highly recommend their expertise 
+                                for anyone seeking top-notch design!"
+                            </p>
+
+                            <div>
+                                <h3 class="testimonial__name">Remy McHennie</h3>
+                                <span class="testimonial__subtitle">Client</span>
+                            </div>
+                        </div>
+
+                        <!--====== TESTIMONIAL 3 ======-->
+                        <div class="testimonial__content swiper-slide">
+                            <p class="testimonial__description">
+                                "Exceeded my expectations. The web design is a 
+                                perfect blend of innovation and functionality! 
+                                Thank you Remy, looking forward to working with you again."
+                            </p>
+
+                            <div>
+                                <h3 class="testimonial__name">Remy Gustav</h3>
+                                <span class="testimonial__subtitle">Client</span>
+                            </div>
+                        </div>
+
+                        <!--====== TESTIMONIAL 4 ======-->
+                        <div class="testimonial__content swiper-slide">
+                            <p class="testimonial__description">
+                                "Exceptional web design that perfectly captured 
+                                my brand essence – a true creative genius Remy is! 
+                                I will definitely work with you again in the future"
+                            </p>
+
+                            <div>
+                                <h3 class="testimonial__name">Hassan Omotayo</h3>
+                                <span class="testimonial__subtitle">Client</span>
+                            </div>
+                        </div>
+
+                        <!--====== TESTIMONIAL 5 ======-->
+                        <div class="testimonial__content swiper-slide">
+                            <p class="testimonial__description">
+                                "Beyond impressed with the web design—elegant, 
+                                user-friendly, and a true reflection of my brand. 
+                                Thank you for turning my vision into a captivating 
+                                online reality!"
+                            </p>
+
+                            <div>
+                                <h3 class="testimonial__name">Sasere Temitope</h3>
+                                <span class="testimonial__subtitle">Client</span>
+                            </div>
+                        </div>
+
+                        <!--====== TESTIMONIAL 6 ======-->
+                        <div class="testimonial__content swiper-slide">
+                            <p class="testimonial__description">
+                                "Flawless execution and a design that truly speaks 
+                                to my brand, couldn't be happier with the outstanding 
+                                work Remy did!"
+                            </p>
+
+                            <div>
+                                <h3 class="testimonial__name">Fakolade Benjamin</h3>
+                                <span class="testimonial__subtitle">Client</span>
+                            </div>
+                        </div>
+
+                        <!--====== TESTIMONIAL 7 ======-->
+                        <div class="testimonial__content swiper-slide">
+                            <p class="testimonial__description">
+                                "Thrilled with the web design, brilliantly captured 
+                                my brand essence with style and precision!"
+                            </p>
+
+                            <div>
+                                <h3 class="testimonial__name">Adewebi Fisayo</h3>
+                                <span class="testimonial__subtitle">Client</span>
+                            </div>
+                        </div>
+
+                        <!--====== TESTIMONIAL 8 ======-->
+                        <div class="testimonial__content swiper-slide">
+                            <p class="testimonial__description">
+                                "Incredibly pleased with the web design, a true 
+                                masterpiece that captures the essence of my brand 
+                                effortlessly! Remy is someone you should work with!"
+                            </p>
+
+                            <div>
+                                <h3 class="testimonial__name">Olatunji Ridwan</h3>
+                                <span class="testimonial__subtitle">Client</span>
+                            </div>
+                        </div>
+
+                        <!--====== TESTIMONIAL 9 ======-->
+                        <div class="testimonial__content swiper-slide">
+                            <p class="testimonial__description">
+                                "Exceptional web design that not only met but 
+                                surpassed my expectations, a true testament 
+                                to skill and creativity! It was nice working 
+                                with Remy"
+                            </p>
+
+                            <div>
+                                <h3 class="testimonial__name">Ajayi Ohirein</h3>
+                                <span class="testimonial__subtitle">Client</span>
+                            </div>
+                        </div>
+
+                        <!--====== TESTIMONIAL 10 ======-->
+                        <div class="testimonial__content swiper-slide">
+                            <p class="testimonial__description">
+                                "Beyond impressed with the web design—elegant, 
+                                user-friendly, and precisely what I envisioned!
+                                Thank you for bringing my idea to reality Remy"
+                            </p>
+
+                            <div>
+                                <h3 class="testimonial__name">Ibukunoluwa Obaze</h3>
+                                <span class="testimonial__subtitle">Client</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Swipper Arrow -->
+                    <div class="swiper-button-next">
+                        <i class="ri-arrow-right-s-line"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="ri-arrow-left-s-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <img src="Images/sea-waves.png" alt="testimonial image" class="testimonial__img">
+        </section>
+
+        <!--====== CONTACT ======-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Get In Touch</span>
+
+            <div class="contact__container container grid section__border">
+                <div class="contact__content">
+                    <h3 class="contact__title">
+                        <i class="ri-chat-4-line"></i> Talk to me
+                    </h3>
+
+                    <div class="contact__info">
+                        <div class="contact__data">
+                            <span class="contact__data-title">Email</span>
+                            <span class="contact__data-info">Phemmy10@ymail.com</span>
+                        </div>
+
+                        <div class="contact__data">
+                            <span class="contact__data-title">WhatsApp</span>
+                            <span class="contact__data-info">+234 7035094035</span>
+                            <!-- Insert a real number plus country code -->
+                            <a href="https://api.whatsapp.com/send?phone=2347035094035&text=Hello, I want more info about the cost of designing a full user-friendly and functionality website" target="_blank" class="contact__button">
+                                Write Me <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__data">
+                            <span class="contact__data-title">Telegram</span>
+                            <span class="contact__data-info">@Remy4real</span>
+                            <!-- Insert brand name or profile -->
+                            <a href="https://t.me/@Remy4real." target="_blank" class="contact__button">
+                                Write Me <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact__content">
+                    <h3 class="contact__title">
+                        <i class="ri-send-plane-line"></i> Write me your project
+                    </h3>
+
+                    <form action="" class="contact__form" id="contact-form">
+                        <div class="contact__form-div">
+                            <label class="contact__form-tag">Names</label>
+                            <input type="text" name="user_name" required placeholder="Write your names" class="contact__form-input" id="contact-name">
+                        </div>
+
+                        <div class="contact__form-div">
+                            <label class="contact__form-tag">Mail</label>
+                            <input type="email" name="user_email" required placeholder="Write your Email" class="contact__form-input" id="contact-email">
+                        </div>
+
+                        <div class="contact__form-div contact__form-area">
+                            <label class="contact__form-tag">Project</label>
+                            <textarea name="user_project" placeholder="Write your project" class="contact__form-input" id="contact-project"></textarea>
+                        </div>
+
+                        <p class="contact__message" id="contact-message"></p>
+
+                        <button class="contact__button" type="submit">
+                            Submit <i class="ri-arrow-right-up-line"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--====== FOOTER ======-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">Remy</h1>
+            <p>Frontend Developer</p>
+
+            <ul class="footer__list">
+                <li>
+                    <a href="#home" class="footer__link">Home</a>
+                </li>
+
+                <li>
+                    <a href="#skills" class="footer__link">Skills</a>
+                </li>
+
+                <li>
+                    <a href="#projects" class="footer__link">Projects</a>
+                </li>
+            </ul>
+
+            <ul class="footer__social">
+                <a href="https://www.linkedin.com/in/okeremi-olufemi-3a6485200/" target="_blank" class="footer__social-link">
+                    <i class="ri-linkedin-box-line"></i>
+                </a>
+
+                <a href="https://github.com/McPhemmie" target="_blank" class="footer__social-link">
+                    <i class="ri-github-line"></i>
+                </a>
+
+                <a href="https://dribbble.com/" target="_blank" class="footer__social-link">
+                    <i class="ri-dribbble-line"></i>
+                </a>
+            </ul>
+
+            <span class="footer__copy">
+                &#169; Copyright Remy 2023. All rights reserved
+            </span>
+        </div>
+    </footer>
+    <!--====== SCROLL UP ======-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--====== SCROLLREVEAL ======-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--====== SWIPPER JS ======-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!--====== EMAIL JS ======-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <!--====== SCROLLREVEAL ======-->
+    <script src="main.js"></script>
+</body>
+</html>
